@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - Rakibul Islam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script>try {var w = localStorage.getItem('pw'); document.documentElement.dataset.w = ['mid', 'full'].includes(w) ? w : 'default'} catch (e) { }</script>
+</head>
+
+<body>
+    <div class="app">
+        <aside class="side-col" id="side">
+            <div class="side-search"><i class="bi bi-search"></i><input id="sideSearch" type="search"
+                    placeholder="Search..." aria-label="Search"></div>
+            <nav class="side-menu"><a class="nl active" href="index.html"><i class="bi bi-house-door-fill ic"
+                        style="color:#3daee9"></i>Home</a><a class="nl" href="about.html"><i
+                        class="bi bi-person-fill ic" style="color:#27ae60"></i>About</a><a class="nl"
+                    href="services.html"><i class="bi bi-tools ic" style="color:#16a085"></i>Services</a><a class="nl"
+                    href="shop.html"><i class="bi bi-bag-fill ic" style="color:#f39c12"></i>Shop</a><a class="nl"
+                    data-bs-toggle="collapse" href="#sub-blog" aria-expanded="false"><i
+                        class="bi bi-journal-richtext ic" style="color:#e67e22"></i>Blog<i
+                        class="bi bi-chevron-right chev"></i></a>
+                <div class="collapse sub" id="sub-blog"><a class="nl" href="blog.html">Accounting</a><a class="nl"
+                        href="blog.html">Web Development</a><a class="nl" href="blog.html">Career</a></div><a class="nl"
+                    data-bs-toggle="collapse" href="#sub-gallery" aria-expanded="false"><i class="bi bi-images ic"
+                        style="color:#9b59b6"></i>Gallery<i class="bi bi-chevron-right chev"></i></a>
+                <div class="collapse sub" id="sub-gallery"><a class="nl" href="gallery.html">Work</a><a class="nl"
+                        href="gallery.html">Events</a><a class="nl" href="gallery.html">Design</a></div><a class="nl"
+                    href="contact.html"><i class="bi bi-envelope-fill ic" style="color:#e74c3c"></i>Contact</a>
+            </nav>
+            <div class="side-bottom">
+                <a class="nl" href="#" data-bs-toggle="modal" data-bs-target="#cvModal"><i class="bi bi-file-earmark-person ic"></i>Resume</a>
+                <a class="nl"href="https://www.linkedin.com/in/rakib-kst7/" target="_new"><i class="bi bi-linkedin ic"></i>LinkedIn</a>
+                <a class="nl"href="contact.html"><i class="bi bi-briefcase ic"></i>Hire Me<span class="badge-o">Open</span></a>
+            </div>
+        </aside>
+        <div class="backdrop" id="backdrop"></div>
+        <div class="main-col">
+            <header class="topbar"><button id="menuBtn" class="btn btn-sm d-lg-none" aria-label="Menu"><i
+                        class="bi bi-list fs-4"></i></button>
+                <h1>Home</h1>
+                <div class="wsw d-none d-xl-inline-flex" role="group" aria-label="Page width"><button data-w="mid"
+                        title="Mid width (1200px)"><i class="bi bi-arrows-angle-contract"></i>1200</button><button
+                        data-w="default" title="Default (1366px)"><i class="bi bi-display"></i>1366</button><button
+                        data-w="full" title="Full width"><i class="bi bi-arrows-fullscreen"></i>Full</button></div>
+            </header>
+            <main class="content home">
+                <section class="hero">
+                    <div class="sl"><img src="images/cost.svg" alt="Cost Accounting System">
+                        <div class="cap"><span class="bdg">Accounting</span>
+                            <h2>Cost Accounting System</h2>
+                            <p>Production costing, cost sheets and stock valuation for manufacturing.</p>
+                            <div class="chips"><span>Excel</span><span>Cost Sheet</span><span>Inventory</span></div>
+                            <div class="mt-3"><a class="btn btn-blue" href="about.html">View more <i
+                                        class="bi bi-arrow-right"></i></a><a class="btn btn-outline-secondary ms-2"
+                                    href="contact.html">Hire Me</a></div>
+                        </div>
+                    </div>
+                    <div class="sl"><img src="images/reports.svg" alt="Financial Reports">
+                        <div class="cap"><span class="bdg">Reporting</span>
+                            <h2>Financial Reports</h2>
+                            <p>Monthly MIS, budget variance and management reporting.</p>
+                            <div class="chips"><span>MIS</span><span>Budget</span><span>Variance</span></div>
+                            <div class="mt-3"><a class="btn btn-blue" href="about.html">View more <i
+                                        class="bi bi-arrow-right"></i></a><a class="btn btn-outline-secondary ms-2"
+                                    href="contact.html">Hire Me</a></div>
+                        </div>
+                    </div>
+                    <div class="sl"><img src="images/web.svg" alt="WordPress Websites">
+                        <div class="cap"><span class="bdg">Web</span>
+                            <h2>WordPress Websites</h2>
+                            <p>Responsive custom themes built with HTML, CSS, Bootstrap and PHP.</p>
+                            <div class="chips"><span>WordPress</span><span>Bootstrap</span><span>SEO</span></div>
+                            <div class="mt-3"><a class="btn btn-blue" href="gallery.html">View more <i
+                                        class="bi bi-arrow-right"></i></a><a class="btn btn-outline-secondary ms-2"
+                                    href="contact.html">Hire Me</a></div>
+                        </div>
+                    </div>
+                    <div class="sl"><img src="images/cloud.svg" alt="Cloud Accounting">
+                        <div class="cap"><span class="bdg">Cloud</span>
+                            <h2>Cloud Accounting</h2>
+                            <p>QuickBooks Online and Xero bookkeeping for freelance clients.</p>
+                            <div class="chips"><span>QuickBooks</span><span>Xero</span><span>Bookkeeping</span></div>
+                            <div class="mt-3"><a class="btn btn-blue" href="services.html">View more <i
+                                        class="bi bi-arrow-right"></i></a><a class="btn btn-outline-secondary ms-2"
+                                    href="contact.html">Hire Me</a></div>
+                        </div>
+                    </div>
+                    <div class="sl"><img src="images/trading.svg" alt="Trading Analysis">
+                        <div class="cap"><span class="bdg">Markets</span>
+                            <h2>Trading Analysis</h2>
+                            <p>Market study, charts and strategy notes.</p>
+                            <div class="chips"><span>Charts</span><span>Strategy</span><span>Research</span></div>
+                            <div class="mt-3"><a class="btn btn-blue" href="blog.html">View more <i
+                                        class="bi bi-arrow-right"></i></a><a class="btn btn-outline-secondary ms-2"
+                                    href="contact.html">Hire Me</a></div>
+                        </div>
+                    </div><button class="arr prev" aria-label="Previous"><i
+                            class="bi bi-chevron-left"></i></button><button class="arr next" aria-label="Next"><i
+                            class="bi bi-chevron-right"></i></button>
+                    <div class="dots"><button aria-label='slide'></button><button aria-label='slide'></button><button
+                            aria-label='slide'></button><button aria-label='slide'></button><button
+                            aria-label='slide'></button></div>
+                    <div class="cnt">01 / 05</div>
+                    <div class="prog"><span></span></div>
+                </section>
+                <div class="pad">
+                    <h2 class="section-title">Featured Work</h2>
+                    <div class="cards-grid">
+                        <div class="app-card fw">
+                            <div class="th"><img src="images/cost.svg" alt=""></div>
+                            <div>
+                                <h3>Cost Accounting System</h3>
+                                <p>Production costing, cost sheets and stock valuation for manufacturing.</p>
+                            </div>
+                        </div>
+                        <div class="app-card fw">
+                            <div class="th"><img src="images/reports.svg" alt=""></div>
+                            <div>
+                                <h3>Financial Reports</h3>
+                                <p>Monthly MIS, budget variance and management reporting.</p>
+                            </div>
+                        </div>
+                        <div class="app-card fw">
+                            <div class="th"><img src="images/web.svg" alt=""></div>
+                            <div>
+                                <h3>WordPress Websites</h3>
+                                <p>Responsive custom themes built with HTML, CSS, Bootstrap and PHP.</p>
+                            </div>
+                        </div>
+                        <div class="app-card fw">
+                            <div class="th"><img src="images/cloud.svg" alt=""></div>
+                            <div>
+                                <h3>Cloud Accounting</h3>
+                                <p>QuickBooks Online and Xero bookkeeping for freelance clients.</p>
+                            </div>
+                        </div>
+                        <div class="app-card fw">
+                            <div class="th"><img src="images/trading.svg" alt=""></div>
+                            <div>
+                                <h3>Trading Analysis</h3>
+                                <p>Market study, charts and strategy notes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="section-title">Services</h2>
+                    <div class="cards-grid "><a class="app-card" href="#">
+                            <div class="ic" style="background:#e74c3c"><i class="bi bi-journal-check"></i></div>
+                            <div>
+                                <h3>Bookkeeping</h3>
+                                <p>Accurate books, reconciliations, reports</p>
+                            </div>
+                        </a><a class="app-card" href="#">
+                            <div class="ic" style="background:#16a085"><i class="bi bi-code-slash"></i></div>
+                            <div>
+                                <h3>Web Development</h3>
+                                <p>Responsive, clean, SEO-friendly sites</p>
+                            </div>
+                        </a><a class="app-card" href="#">
+                            <div class="ic" style="background:#f39c12"><i class="bi bi-search"></i></div>
+                            <div>
+                                <h3>SEO & Marketing</h3>
+                                <p>On-page SEO and digital marketing</p>
+                            </div>
+                        </a><a class="app-card" href="#">
+                            <div class="ic" style="background:#34495e"><i class="bi bi-box-seam"></i></div>
+                            <div>
+                                <h3>Warehouse & Production</h3>
+                                <p>Stock control and production costing</p>
+                            </div>
+                        </a><a class="app-card" href="#">
+                            <div class="ic" style="background:#8e44ad"><i class="bi bi-translate"></i></div>
+                            <div>
+                                <h3>Consulting</h3>
+                                <p>Accounting systems and process advice</p>
+                            </div>
+                        </a><a class="app-card" href="#">
+                            <div class="ic" style="background:#2980b9"><i class="bi bi-headset"></i></div>
+                            <div>
+                                <h3>Support</h3>
+                                <p>Quick replies and reliable follow-up</p>
+                            </div>
+                        </a></div>
+                </div>
+            </main>
+            <footer class="footer"><span>&copy; 2026 Rakibul Islam. All rights reserved.</span><span>Kushtia,
+                    Bangladesh</span></footer>
+        </div>
+    </div>
+    <div class="modal fade" id="cvModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Resume / CV</h5><button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center py-4"><i class="bi bi-file-earmark-person"
+                        style="font-size:56px;color:var(--blue)"></i>
+                    <h6 class="mt-2">Rakibul Islam - CV</h6>
+                    <p class="text-muted small">Download my latest resume (PDF).</p>
+                    <a id="cvDownload" class="btn text-white me-2" style="background:var(--blue)" target="_blank"
+                        rel="noopener"><i class="bi bi-download"></i> Download CV</a>
+                    <a id="cvView" class="btn btn-outline-secondary" target="_blank" rel="noopener"><i
+                            class="bi bi-eye"></i> View Online</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

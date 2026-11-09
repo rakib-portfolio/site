@@ -1,0 +1,6 @@
+01. Gallery page er kono sub menu thakbe na, upore je filter button gulo ace sekhan 
+01. Gallery page er work section e portfolio website e click korle ekta pop-up open hobe sekhane kichu(4 or 5 ta) portfolio kajer sample thakbe. protita te 'view button' thakbe ebong view hole sekhane Buy now button thabe. click korle sei site open hobe. tumi 4/5 ta attractive portfolio site ready kore dibe ebong seigulo link kore dibe. evabe wordpress theme, Ui Layout, Report Dashboard protita te kajer kichu sample add korbe.
+
+03. evabe blog page e o protiata section e kicu sample add korbe. view button thakbe ebong view hole sekhane Buy now button thabe.
+
+ami ja bollam setai final na, amar plan er upor base kore tumi btter jeta hoy tumi seta korbe.
