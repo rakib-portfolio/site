@@ -1,7 +1,7 @@
 /* ====== SETTINGS (edit these two lines) ====== */
 const CONFIG={
   email:"rakib.kst7@gmail.com",        // orders & messages arrive here
-  cvFileId:"1mIxA4tFippQvCRFsnPg75b849PFqcIv0",// CV file id (Google Drive)
+  cvFileId:"14AyDSl0e0yt7TTgorUCsGlpd2b5kATyd",// CV file id (Google Drive)
   freeLink:"https://drive.google.com/",// download link of the FREE product
   usdToBdt:120,                        // set your own USD->BDT rate
   pay:[                                // payment methods shown on checkout
